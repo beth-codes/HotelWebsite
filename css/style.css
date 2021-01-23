@@ -66,6 +66,10 @@ h1, h2, h3 {
     clear: both;
 }
 
+.py-1 { padding: 10px 0;}
+.py-2 { padding: 20px 0;}
+.py-3 { padding: 30px 0;}
+
 .btn:hover {
     background: #f7c08a;
     color: #333;
@@ -168,7 +172,35 @@ h1, h2, h3 {
     text-align: center;
     color: white;
     padding: 20px; 
+}
+
+/* about */
+
+.l-head {
+    font-size: 40px;
+}
+
+#about{
+    height: 200px;
+}
+
+.about1{
+    float: left;
+    width: 50%;
+    min-height: 100%;  
 
 }
 
+.image1 img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.image1 {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
 
