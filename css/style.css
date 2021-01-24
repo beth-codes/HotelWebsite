@@ -79,7 +79,7 @@ h1, h2, h3 {
     color: #fff;
     overflow: auto;
 }
-#navbar h1 {
+#navbar .logo{
     float: left;
     padding-top: 20px;
 }
@@ -132,7 +132,7 @@ h1, h2, h3 {
 }
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-image {
@@ -167,7 +167,7 @@ h1, h2, h3 {
 }
 
 #main-footer{
-    background: #333;
+    background: #444;
     text-align: center;
     color: white;
     padding: 20px; 
@@ -177,10 +177,7 @@ h1, h2, h3 {
 
 .l-head {
     font-size: 40px;
-}
-
-#about{
-    height: 400px;
+    line-height: 1.2;
 }
 
 #about .about1{
@@ -203,7 +200,7 @@ h1, h2, h3 {
 }
 
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url(../img/test-bg.jpg) no-repeat center center/cover;
     padding-top: 40px;
 }
@@ -237,7 +234,6 @@ h1, h2, h3 {
 #contact label {
     display: block;
     margin-bottom: 5px;
-
 }
 
 #contact input,
